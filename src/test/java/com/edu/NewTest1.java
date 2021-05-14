@@ -28,7 +28,7 @@ public class NewTest1 {
   public void addContact() {
 	  
 	 	driver.findElement(By.xpath("//div[@class = 'v-button v-widget']")).click();
-		driver.findElement(By.id("gwt-uid-5")).sendKeys("Naresh");
+		driver.findElement(By.id("gwt-uid-5")).sendKeys("Obinna");
 		driver.findElement(By.id("gwt-uid-7")).sendKeys("T");
 		driver.findElement(By.id("gwt-uid-9")).sendKeys("805983095");
 		driver.findElement(By.id("gwt-uid-11")).sendKeys("test@gmail.com");
